@@ -4,13 +4,39 @@
   </head>
   <body>
     <a-scene>
-      <a-box position="-1 0.5 -3" rotation="0 0 0" width="3" depth="5" height="6" color="#4CC3D9"></a-box>
-      <a-box position="-1 2.5 -3" rotation="0 0 0" width="2" depth="5" height="6" color="#4CC3D9"></a-box>
-      <a-sphere position="-1 1.25 -5" radius="1.25" color="#EF2D5E"></a-sphere>
-      <a-cylinder position="-1 0.5 -3.8" radius="0.5" height="3.5" rotation="90 0 90" color="black"></a-cylinder>
-      <a-cylinder position="-1 0.5 -2.8" radius="0.5" height="3.5" rotation="90 0 90" color="black"></a-cylinder>
-      <a-plane position="0 0 -4" rotation="-90 0 0" width="100" height="100" color="#7BC8A4"></a-plane>
-      <a-sky color="#ECECEC"></a-sky>
+      <a-box wireframe="true" width="3" height="3" depth="3">
+        <a-box position="-1 0.5 -3" rotation="0 0 0" width="3" depth="5" height="6" color="black"></a-box>
+        <a-box position="-1 2.5 -3" rotation="0 0 0" width="2" depth="5" height="6" color="black"></a-box>
+        <a-plane position="-1 -0.5 -5" radius="1.25" color="#EF2D5E"></a-plane>
+        <a-sphere position="-0.3 1 -0.5" radius="0.5" color="yellow"></a-sphere>
+        <a-sphere position="-1.5 1 -0.5" radius="0.5" color="yellow"></a-sphere>
+        <a-cylinder position="-1 0.5 -4.5" radius="0.5" height="3.5" rotation="90 0 90" color="white"></a-cylinder>
+        <a-cylinder position="-1 0.5 -1.5" radius="0.5" height="3.5" rotation="90 0 90" color="white"></a-cylinder>
+        <a-torus position="0.5 0.5 -4.5" radius="0.5" height="3.5" rotation="0 90 0" color="black"></a-torus>
+        <a-torus position="0.5 0.5 -1.5" radius="0.5" height="3.5" rotation="0 90 0" color="black"></a-torus>
+        <a-torus position="-2.5 0.5 -4.5" radius="0.5" height="3.5" rotation="0 90 0" color="black"></a-torus>
+        <a-torus position="-2.5 0.5 -1.5" radius="0.5" height="3.5" rotation="0 90 0" color="black"></a-torus>
+      </a-box>
+      <a-box wireframe="true" width="3" height="3" depth="3" position="-4 0.2 -3">
+        <a-box position="-1 0.5 -3" rotation="0 0 0" width="3" depth="5" height="6" color="grey"></a-box>
+        <a-box position="-1 2.5 -3" rotation="0 0 0" width="2" depth="5" height="6" color="grey"></a-box>
+        <a-plane position="-1 -0.5 -5" radius="1.25" color="#EF2D5E"></a-plane>
+        <a-sphere position="-0.3 1 -0.5" radius="0.5" color="yellow"></a-sphere>
+        <a-sphere position="-1.5 1 -0.5" radius="0.5" color="yellow"></a-sphere>
+        <a-cylinder position="-1 0.5 -4.5" radius="0.5" height="3.5" rotation="90 0 90" color="white"></a-cylinder>
+        <a-cylinder position="-1 0.5 -1.5" radius="0.5" height="3.5" rotation="90 0 90" color="white"></a-cylinder>
+        <a-torus position="0.5 0.5 -4.5" radius="0.5" height="3.5" rotation="0 90 0" color="black"></a-torus>
+        <a-torus position="0.5 0.5 -1.5" radius="0.5" height="3.5" rotation="0 90 0" color="black"></a-torus>
+        <a-torus position="-2.5 0.5 -4.5" radius="0.5" height="3.5" rotation="0 90 0" color="black"></a-torus>
+        <a-torus position="-2.5 0.5 -1.5" radius="0.5" height="3.5" rotation="0 90 0" color="black"></a-torus>
+      </a-box>
+      <a-dodecahedron src="rock.jpg" repeat="4 4" position="4 0 1.5" radius="4" height="3.9"></a-dodecahedron>
+      <a-dodecahedron src="rock.jpg" repeat="4 4" position="4 0 -30" radius="30" height="100"></a-dodecahedron>
+      <a-dodecahedron src="rock.jpg" repeat="4 4" position="7 0 3.5" radius="4" height="3.9"></a-dodecahedron>
+      <a-dodecahedron src="rock.jpg" repeat="4 4" position="-10 0 1s.5" radius="4" height="3.9"></a-dodecahedron>
+      <a-dodecahedron src="rock.jpg" repeat="4 4" position="10 0 2.5" radius="4" height="3.9"></a-dodecahedron>
+      <a-plane src="everytexture.com-stock-nature-dirt-texture-00043-400x400.jpg" repeat="40 40" position="0 0 -4" rotation="-90 0 0" width="100" height="100" color="grey"></a-plane>
+      <a-sky src="sunset.jpg" repeat="2 2" color="#ECECEC"></a-sky>
       <a-camera position="0 1.4 5"></a-camera>
     </a-scene>
   </body>
